@@ -10,12 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_01_15_191844) do
+ActiveRecord::Schema.define(version: 2019_01_15_193014) do
 
   create_table "seasons", force: :cascade do |t|
     t.integer "seasonNumber"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "tvshow_id"
   end
 
   create_table "tvshows", force: :cascade do |t|
