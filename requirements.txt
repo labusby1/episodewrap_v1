@@ -14,7 +14,7 @@ NavBar
 Footer
     *logo and name  ✔
     *FAQs ✔ --> update link to FAQ page
-    *Link to creator(maybe linkedin page?)
+    *Link to creator(maybe linkedin page?) 
 
 Front Page:
 
@@ -22,7 +22,7 @@ Front Page:
 *Will include a collection of "featured" series on display - scrolling by 
 *Short description and instructions below featured wheel. ex "turn off spoiler 
     mode to access all series information"
-*list of all series in alphabetical order (while list is still small)
+*list of all series in alphabetical order (while list is still small)  ✔
 *selecting a series will bring them to a "series" page. Acts as hub for that 
     series
 
