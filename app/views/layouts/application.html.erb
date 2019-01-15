@@ -10,6 +10,49 @@
   </head>
 
   <body>
+    
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class='container'>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <%= link_to '/', class: "navbar-brand" do %>
+            <div id = "site-name-navbar">
+              <i class="fa fa-film"></i>
+              Episodewrap
+            </div>
+          <% end %>
+        </div>
+        <div class="collapse navbar-collapse" id="main-nav-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><button type="button" id = "btn-spoiler" class="btn btn-outline-warning">Spoiler Mode</button></li>
+            <li><%= link_to "Series", '#' %></li>
+            <li><%= link_to "About", '/about' %></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+    <!-- End of navigation bar -->
+    
+    
     <%= yield %>
+    
+    <!-- Footer -->
+    <footer class="page-footer font-small blue">
+    
+      <div class = "footer mt-5">
+        <ul class= "container text-center">
+          <li><%= link_to 'Home', '/' %></li>
+        </ul>
+      </div>
+    
+    </footer>
+    <!-- End of Footer -->
+    
   </body>
 </html>

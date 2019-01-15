@@ -6,13 +6,13 @@
 Navigation Bar / footer:
 
 NavBar
-    *Top left episodewrap logo and name
-    *Include a toggle for spoiler mode -- defaults on when a user visits page
+    *Top left episodewrap logo and name ✔
+    *Include a toggle for spoiler mode -- defaults on when a user visits page 
     *search bar in top right 
     *series link which will take user to a page with all series in alphabetical 
         order
 Footer
-    *logo and name
+    *logo and name 
     *FAQs
     *Link to creator(maybe linkedin page?)
 
@@ -29,7 +29,7 @@ Front Page:
 
 Series hub:
 
-*title with name of series (maybe incluse series logo)
+*title with name of series (maybe include series logo)
 *short description of series including it's genre and maybe creators
 *list out season with dropdown menu that displays episode
 *season # should link to season hub with episodes there 

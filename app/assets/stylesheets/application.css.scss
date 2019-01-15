@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Navigation bar style
+#site-name-navbar{
+  font-weight: bold;
+}
+
+#btn-spoiler {
+  margin-top: 9px;
+}
+
+//Footer Style
+.container .text-center{
+  list-style: none;
+}
+
