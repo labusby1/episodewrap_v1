@@ -1,0 +1,55 @@
+
+                                Episodewrap
+
+--------------------------------------------------------------------------------
+
+Navigation Bar / footer:
+
+NavBar
+    *Top left episodewrap logo and name
+    *Include a toggle for spoiler mode -- defaults on when a user visits page
+    *search bar in top right 
+    *series link which will take user to a page with all series in alphabetical 
+        order
+Footer
+    *logo and name
+    *FAQs
+    *Link to creator(maybe linkedin page?)
+
+Front Page:
+
+*Dark background
+*Will include a collection of "featured" series on display - scrolling by 
+*Short description and instructions below featured wheel. ex "turn off spoiler 
+    mode to access all series information"
+*list of all series in alphabetical order (while list is still small)
+*selecting a series will bring them to a "series" page. Acts as hub for that 
+    series
+
+
+Series hub:
+
+*title with name of series (maybe incluse series logo)
+*short description of series including it's genre and maybe creators
+*list out season with dropdown menu that displays episode
+*season # should link to season hub with episodes there 
+
+
+Season hub:
+
+*list of episodes
+*star ratings to right of episode name
+*link episode name to episode hub
+
+
+Episode hub:
+
+*description of events in the episode
+*list of major characters
+    *that will link to a character's page 
+    *querystring paramaters will indicate the season&episode user came from and
+        only show information about that character which is common knowledge to
+        that point in the series.
+    
+
+Character hub:
