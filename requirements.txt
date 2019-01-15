@@ -12,8 +12,8 @@ NavBar
     *series link which will take user to a page with all series in alphabetical 
         order
 Footer
-    *logo and name 
-    *FAQs
+    *logo and name  ✔
+    *FAQs ✔ --> update link to FAQ page
     *Link to creator(maybe linkedin page?)
 
 Front Page:

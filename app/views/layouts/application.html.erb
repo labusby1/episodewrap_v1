@@ -42,15 +42,23 @@
     
     <%= yield %>
     
+    
     <!-- Footer -->
-    <footer class="page-footer font-small blue">
-    
-      <div class = "footer mt-5">
-        <ul class= "container text-center">
-          <li><%= link_to 'Home', '/' %></li>
-        </ul>
+    <footer class = 'footer text-center'>
+      <div class = 'container'>
+        <%= link_to "/", class: "footer-brand" do %>
+          <i class="fa fa-film"></i>
+          Episodewrap 
+        <% end %>
+        |
+        <%= link_to "#" do %>
+          FAQ
+        <% end %>
+        |
+        <%= link_to "https://vast-inlet-29334.herokuapp.com/" do %>          
+          Developer's Site
+        <% end %>
       </div>
-    
     </footer>
     <!-- End of Footer -->
     
