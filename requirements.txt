@@ -53,3 +53,9 @@ Episode hub:
     
 
 Character hub:
+
+
+Login System:
+*basic login system which only I can access
+*will allow me to create shows, and seasons, etc.
+*Should there be two login types? regular and admin??
