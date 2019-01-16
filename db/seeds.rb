@@ -21,6 +21,9 @@ for i in 1..sr
   Season.create(seasonNumber: i, tvshow_id: Tvshow.find_by(name: 'Game of Thrones').id )
 end
 
+# Game of thrones episodes
+
+
 
 #---
 # Breaking Bad
