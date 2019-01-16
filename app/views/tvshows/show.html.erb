@@ -1,0 +1,20 @@
+<div class = "container">
+  <div class = "row">
+    <div class = "col-md-6 col-md-offset-3 text-center">
+      <h1>Welcome to the <%= Tvshow.find(params[:id]).name %> hub!</h1>
+    </div>
+  </div>
+</div>
+<div class = "container">
+  <div class = "row">
+    <div class = "col-md-2 col-md-offset-1 well">
+      
+    </div>
+    <div class = "col-md-6 well">
+      <%= Season.where(tvshow_id: 1).inspect %>
+    </div>
+    <div class = "col-md-2 well">
+      
+    </div>
+  </div>
+</div>

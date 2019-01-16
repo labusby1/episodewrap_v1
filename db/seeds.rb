@@ -8,5 +8,7 @@
 
 # Tvshows list
 Tvshow.create(name: 'Game of Thrones', aired: '2011-present', network: 'HBO')
+Tvshow.create(name: 'Breaking Bad', aired: '2008-2013', network: 'AMC')
+Tvshow.create(name: 'Black Mirror', aired: '2011-present', network: 'Netflix')
 
 #

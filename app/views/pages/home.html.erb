@@ -27,13 +27,17 @@
       <ul id = "front-page-series-list" class = "text-center" >
         <li>_#_</li>
         <li>_A_</li>
+        
         <li>_B_</li>
+        <li><%= link_to 'Black Mirror', tvshow_path(id: @blackMirror.id),  class: 'linked-series' %></li>
+        <li><%= link_to 'Breaking Bad', tvshow_path(id: @breakingBad.id),  class: 'linked-series' %></li>
+
         <li>_C_</li>
         <li>_D_</li>
         <li>_E_</li>
         <li>_F_</li>
         <li>_G_</li>
-        <li><%= link_to 'Game of Thrones', '#',  class: 'linked-series' %></li>
+        <li><%= link_to 'Game of Thrones', tvshow_path(id: @gameOfThrones.id),  class: 'linked-series' %></li>
         <li>_H_</li>
       </ul>
     </div>
